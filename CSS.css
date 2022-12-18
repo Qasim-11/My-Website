@@ -20,7 +20,7 @@ li
     display: block;
     margin: 0px;
     padding: 10px;
-    border-left: 2px solid white;
+    border-left: 1px solid white;
     text-transform: uppercase;
     letter-spacing: 2px;
     clear: both;
@@ -65,5 +65,5 @@ min-height: 5000px;
    
 }
 .ss{
-    border-bottom: 2px solid white;
+    border-bottom: 1px solid white;
 }
