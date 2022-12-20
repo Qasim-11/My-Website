@@ -7,30 +7,30 @@ Chivo Mono is a variable font with this axis:
   wght
 
 This means all the styles are contained in these files:
-  ChivoMono-VariableFont_wght.ttf
-  ChivoMono-Italic-VariableFont_wght.ttf
+  Chivo_Mono/ChivoMono-VariableFont_wght.ttf
+  Chivo_Mono/ChivoMono-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
 in those cases you can use the static font files for Chivo Mono:
-  static/ChivoMono-Thin.ttf
-  static/ChivoMono-ExtraLight.ttf
-  static/ChivoMono-Light.ttf
-  static/ChivoMono-Regular.ttf
-  static/ChivoMono-Medium.ttf
-  static/ChivoMono-SemiBold.ttf
-  static/ChivoMono-Bold.ttf
-  static/ChivoMono-ExtraBold.ttf
-  static/ChivoMono-Black.ttf
-  static/ChivoMono-ThinItalic.ttf
-  static/ChivoMono-ExtraLightItalic.ttf
-  static/ChivoMono-LightItalic.ttf
-  static/ChivoMono-Italic.ttf
-  static/ChivoMono-MediumItalic.ttf
-  static/ChivoMono-SemiBoldItalic.ttf
-  static/ChivoMono-BoldItalic.ttf
-  static/ChivoMono-ExtraBoldItalic.ttf
-  static/ChivoMono-BlackItalic.ttf
+  Chivo_Mono/static/ChivoMono-Thin.ttf
+  Chivo_Mono/static/ChivoMono-ExtraLight.ttf
+  Chivo_Mono/static/ChivoMono-Light.ttf
+  Chivo_Mono/static/ChivoMono-Regular.ttf
+  Chivo_Mono/static/ChivoMono-Medium.ttf
+  Chivo_Mono/static/ChivoMono-SemiBold.ttf
+  Chivo_Mono/static/ChivoMono-Bold.ttf
+  Chivo_Mono/static/ChivoMono-ExtraBold.ttf
+  Chivo_Mono/static/ChivoMono-Black.ttf
+  Chivo_Mono/static/ChivoMono-ThinItalic.ttf
+  Chivo_Mono/static/ChivoMono-ExtraLightItalic.ttf
+  Chivo_Mono/static/ChivoMono-LightItalic.ttf
+  Chivo_Mono/static/ChivoMono-Italic.ttf
+  Chivo_Mono/static/ChivoMono-MediumItalic.ttf
+  Chivo_Mono/static/ChivoMono-SemiBoldItalic.ttf
+  Chivo_Mono/static/ChivoMono-BoldItalic.ttf
+  Chivo_Mono/static/ChivoMono-ExtraBoldItalic.ttf
+  Chivo_Mono/static/ChivoMono-BlackItalic.ttf
 
 Get started
 -----------
