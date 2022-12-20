@@ -7,28 +7,28 @@ Source Code Pro is a variable font with this axis:
   wght
 
 This means all the styles are contained in these files:
-  Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf
-  Source_Code_Pro/SourceCodePro-Italic-VariableFont_wght.ttf
+  SourceCodePro-VariableFont_wght.ttf
+  SourceCodePro-Italic-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
 in those cases you can use the static font files for Source Code Pro:
-  Source_Code_Pro/static/SourceCodePro-ExtraLight.ttf
-  Source_Code_Pro/static/SourceCodePro-Light.ttf
-  Source_Code_Pro/static/SourceCodePro-Regular.ttf
-  Source_Code_Pro/static/SourceCodePro-Medium.ttf
-  Source_Code_Pro/static/SourceCodePro-SemiBold.ttf
-  Source_Code_Pro/static/SourceCodePro-Bold.ttf
-  Source_Code_Pro/static/SourceCodePro-ExtraBold.ttf
-  Source_Code_Pro/static/SourceCodePro-Black.ttf
-  Source_Code_Pro/static/SourceCodePro-ExtraLightItalic.ttf
-  Source_Code_Pro/static/SourceCodePro-LightItalic.ttf
-  Source_Code_Pro/static/SourceCodePro-Italic.ttf
-  Source_Code_Pro/static/SourceCodePro-MediumItalic.ttf
-  Source_Code_Pro/static/SourceCodePro-SemiBoldItalic.ttf
-  Source_Code_Pro/static/SourceCodePro-BoldItalic.ttf
-  Source_Code_Pro/static/SourceCodePro-ExtraBoldItalic.ttf
-  Source_Code_Pro/static/SourceCodePro-BlackItalic.ttf
+  static/SourceCodePro-ExtraLight.ttf
+  static/SourceCodePro-Light.ttf
+  static/SourceCodePro-Regular.ttf
+  static/SourceCodePro-Medium.ttf
+  static/SourceCodePro-SemiBold.ttf
+  static/SourceCodePro-Bold.ttf
+  static/SourceCodePro-ExtraBold.ttf
+  static/SourceCodePro-Black.ttf
+  static/SourceCodePro-ExtraLightItalic.ttf
+  static/SourceCodePro-LightItalic.ttf
+  static/SourceCodePro-Italic.ttf
+  static/SourceCodePro-MediumItalic.ttf
+  static/SourceCodePro-SemiBoldItalic.ttf
+  static/SourceCodePro-BoldItalic.ttf
+  static/SourceCodePro-ExtraBoldItalic.ttf
+  static/SourceCodePro-BlackItalic.ttf
 
 Get started
 -----------
