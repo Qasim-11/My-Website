@@ -1,6 +1,7 @@
 body
 {
     font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
     
 
 }
@@ -13,18 +14,21 @@ text-decoration: none;
 nav{
     background-color:rgb(6,57,112) ;
     position: sticky;
-    top : 0
+    top : 0;
+    right: 25px;
+    display: inline;
     
 }
 li
 {
     display: block;
-    margin: 0px;
     padding: 10px;
     border-left: 1px solid white;
     text-transform: uppercase;
     letter-spacing: 2px;
-    clear: both;
+    text-align: right;
+    margin-left: 1500px;
+    
     
 }
 h1, h2{
@@ -34,7 +38,7 @@ h1, h2{
 }
 p{
     padding: 5px;
-    margin-left: 40px;
+    margin-left: 15px;
     max-width: 1100px;
     text-transform: capitalize;
 }
