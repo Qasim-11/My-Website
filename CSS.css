@@ -13,10 +13,11 @@ text-decoration: none;
 }
 nav{
     background-color:rgb(6,57,112) ;
-    position: sticky;
+    position: relative;
     top : 0;
     right: 25px;
     display: inline;
+
     
 }
 li
@@ -26,8 +27,8 @@ li
     border-left: 1px solid white;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: right;
-    margin-left: 1500px;
+    text-align: left;
+  
     
     
 }
@@ -71,4 +72,18 @@ min-height: 5000px;
 }
 .ss{
     border-bottom: 1px solid white;
+}
+.f{
+    margin-left: 15px;
+}
+.quran{
+    
+    
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 5px;
+    max-width: 250px;
+    max-height: 9000000px;
+
 }
