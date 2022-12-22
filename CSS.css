@@ -73,7 +73,7 @@ min-height: 5000px;
 .ss{
     border-bottom: 1px solid white;
 }
-.f{
+.f {
     margin-left: 15px;
 }
 .quran{
@@ -84,6 +84,7 @@ min-height: 5000px;
     top: 0px;
     padding: 5px;
     max-width: 250px;
-    max-height: 9000000px;
+
+    
 
 }
