@@ -160,7 +160,6 @@ min-height: 5000px;
 }
 
 li:hover{
-    padding: 22px 45px 22px 45px;
     letter-spacing: 10px;
     box-shadow: inset 0px 0px 0px 1px black;    
     text-align: center;
