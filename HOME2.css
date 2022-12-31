@@ -87,7 +87,8 @@ min-height: 5000px;
 }
 
 .f {
-    margin-left: 15px;
+    text-align: center;
+
 }
 /* .quran{
     
@@ -101,9 +102,15 @@ min-height: 5000px;
     background-color: rgb(6,57,112) ;
     border-radius: 10px;
 } */
+.links{
+    display: flex-box;
+    flex-direction: row;
+    flex-grow: 1;
+    text-align: center;
+
+}
 .ContectsLinksW{
-    position: relative;
-    left: 50px;
+
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 7px;
@@ -111,11 +118,16 @@ min-height: 5000px;
     border-radius: 60px;
     box-shadow: inset 0px 0px 3px 0px #000205;
     transition-duration: 0.4s;
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+
+
+
 
 }
 .ContectsLinksG{
-    position: relative;
-    left: 50px;
+
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 7px;
@@ -123,6 +135,12 @@ min-height: 5000px;
     border-radius: 60px;
     box-shadow: inset 0px 0px 3px 0px #000205;
     transition-duration: 0.4s;
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+ 
+
+
 }
 .ContectsLinksG:hover{
     background-color : gray;
