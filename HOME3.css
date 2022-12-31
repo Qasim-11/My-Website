@@ -1,0 +1,133 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+    
+
+}
+a
+{
+color: #000205;
+text-decoration: none;
+
+}
+nav{
+    background-color:white(6,57,112) ;
+    position: relative;
+    top : 0;
+    right: 25px;
+    display: inline;
+
+    
+}
+li
+{
+    display: block;
+    padding: 10px;
+    border-left: 1px solid #000205;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    transition-duration: 0.4s;
+
+  
+    
+    
+}
+h1, h2{
+    border-left: 2px solid #000205 ;
+    padding: 5px;
+    margin-left: 40px;
+
+}
+p{
+    padding: 5px;
+    margin-left: 15px;
+    max-width: 1100px;
+    text-transform: capitalize;
+}
+/* hi */
+.c
+{
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+    
+
+.main
+{
+background-color: FAFCFF ;
+color: #000205;
+min-height: 5000px;
+}
+
+
+
+.logo
+{
+    display: block;
+    border-radius: 100px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.ss{
+    border-bottom: 1px solid #000205;
+}
+.f {
+    margin-left: 15px;
+}
+/* .quran{
+    
+    
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 5px;
+    max-width: 250px;
+    z-index: 2;
+    background-color: rgb(6,57,112) ;
+    border-radius: 10px;
+} */
+.ContectsLinksW{
+    position: relative;
+    left: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 60px;
+    background-color: green;
+    box-shadow: 0px 0px 5px 0px #000205;
+    transition-duration: 0.4s;
+
+}
+.ContectsLinksG{
+    position: relative;
+    left: 50px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 60px;
+    background-color: rgb(175, 3, 3);
+    box-shadow: 0px 0px 5px 0px #000205;
+    transition-duration: 0.4s;
+}
+.ContectsLinksG:hover{
+    background-color : gray;
+    box-shadow: inset 0px 0px 10px 0px #000205;
+    
+
+}
+.ContectsLinksW:hover{
+    background-color : gray;
+    box-shadow: inset 0px 0px 10px 0px #000205;    
+}
+
+li:hover{
+    padding-left: 35px;
+    letter-spacing: 10px;
+    box-shadow:  0px 0px 0px 1px #000205;
+}

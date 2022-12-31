@@ -118,14 +118,17 @@ min-height: 5000px;
 }
 .ContectsLinksG:hover{
     background-color : gray;
-    box-shadow: inset 0px 0px 10px 0px black;
-    
-
+    box-shadow: inset 0px 0px 10px 0px #000205;
+    letter-spacing: 5px;   
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .ContectsLinksW:hover{
     background-color : gray;
-    box-shadow: inset 0px 0px 10px 0px black;    
-}
+    box-shadow: inset 0px 0px 10px 0px #000205; 
+    letter-spacing: 5px;   
+    padding-left: 40px;
+    padding-right: 40px;}
 
 li:hover{
     padding-left: 35px;

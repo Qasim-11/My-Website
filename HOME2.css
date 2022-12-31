@@ -17,27 +17,32 @@ nav{
     top : 0;
     right: 25px;
     display: inline;
+    text-align: center;
 
     
 }
 li
 {
-    display: block;
-    padding: 10px;
+    padding: 10px 35px 10px 35px ;
     border-left: 1px solid #000205;
     text-transform: uppercase;
     letter-spacing: 2px;
-    text-align: left;
+    text-align: center;
     transition-duration: 0.4s;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    display: inline;
+    flex-grow: 1;
 
   
     
     
 }
 h1, h2{
-    border-left: 2px solid #000205 ;
     padding: 5px;
     margin-left: 40px;
+    box-shadow: inset 1px 0px 0px 0px #000205;
 
 }
 p{
@@ -73,7 +78,7 @@ min-height: 5000px;
    
 }
 .ss{
-    border-bottom: 1px solid #000205;
+    border-right: 1px solid #000205;
 }
 .f {
     margin-left: 15px;
@@ -118,16 +123,21 @@ min-height: 5000px;
 .ContectsLinksG:hover{
     background-color : gray;
     box-shadow: inset 0px 0px 10px 0px #000205;
-    
-
+    letter-spacing: 5px;   
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .ContectsLinksW:hover{
     background-color : gray;
-    box-shadow: inset 0px 0px 10px 0px #000205;    
+    box-shadow: inset 0px 0px 10px 0px #000205; 
+    letter-spacing: 5px;   
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 li:hover{
-    padding-left: 35px;
+    padding: 22px 45px 22px 45px;
     letter-spacing: 10px;
-    box-shadow:  0px 0px 0px 1px #000205;
+    box-shadow: inset 0px 0px 0px 1px black;    
+    text-align: center;
 }
