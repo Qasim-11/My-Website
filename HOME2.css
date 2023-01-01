@@ -18,25 +18,34 @@ nav{
     right: 25px;
     display: inline;
     text-align: center;
+    box-sizing: border-box;
+
+
 
     
 }
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    
+
+}
 li
 {
-    padding: 10px 35px 10px 35px ;
+    font-size: 18px;
+    padding: 10px 10px 10px 10px ;
     text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
     transition-duration: 0.4s;
     list-style: none;
-    display: flex;
+    display: inline-block;  
+}
+ul{
+    display: flexbox;
     flex-direction: row;
-    display: inline;
     flex-grow: 1;
-
-  
-    
-    
 }
 /* .ss{
     border-right: 1px solid #000205;
@@ -107,7 +116,7 @@ min-height: 5000px;
     flex-direction: row;
     flex-grow: 1;
     text-align: center;
-
+    box-sizing: border-box;
 }
 .ContectsLinksW{
 
@@ -138,6 +147,7 @@ min-height: 5000px;
     display: inline-block;
     text-align: center;
     margin-right: 40px;
+    
  
 
 
@@ -160,7 +170,27 @@ min-height: 5000px;
 }
 
 li:hover{
-    letter-spacing: 10px;
+    letter-spacing: 5px;
     box-shadow: inset 0px 0px 0px 1px black;    
     text-align: center;
+    
+
 }
+
+/*          
+            NOTE             
+text decoration -> makes a line in the middle of the text or abbove  it or bellow it 
+overline, linethrough
+
+box-sizing -> the defult is contint box , border-box recpects the element Horizently
+
+
+            
+            
+            
+            
+            
+            
+            
+            
+*/
