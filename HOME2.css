@@ -40,14 +40,20 @@ li
     text-align: center;
     transition-duration: 0.4s;
     list-style: none;
-    width : 300px
+    display: inline-block;
+    flex-grow: 1;
+    
+
 
 }
 ul{
     display: flex;
-    flex-grow: 1;
     flex-direction: row;
     text-align: center;
+    padding-left: 0;
+    padding :0;
+    margin-left: auto;
+    margin-right:auto;
     
 }
 /* .ss{
@@ -119,10 +125,10 @@ min-height: 5000px;
     flex-direction: row;
     flex-grow: 1;
     text-align: center;
-    box-sizing: border-box;
     margin-right: auto;
-    
     margin-left: auto;
+    width: fill;
+    max-width: 750px;
 }
 .ContectsLinksW{
 
@@ -136,10 +142,10 @@ min-height: 5000px;
     display: inline-block;
     text-align: center;
     margin-left: 20px;
-
-
-
-
+    flex-direction: row;
+    flex-grow: 1;
+    text-align: center;
+    max-width: 375px;
 }
 .ContectsLinksG{
 
@@ -153,7 +159,10 @@ min-height: 5000px;
     display: inline-block;
     text-align: center;
     margin-right: 40px;
-    
+     flex-direction: row;
+    flex-grow: 1;
+    text-align: center;
+    max-width: 375px;
  
 
 
@@ -176,9 +185,10 @@ min-height: 5000px;
 }
 
 li:hover{
-    letter-spacing: 16px;
-    box-shadow: inset 0px 0px 0px 1px black;    
-    text-align: center;
+    letter-spacing: 11px;
+    box-shadow: inset 0px 0px 0px 1px black; 
+    padding-left: 17px;
+
     
 
 }
