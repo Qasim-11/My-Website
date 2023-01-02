@@ -48,6 +48,14 @@ li
 
 
 }
+li:hover{
+    letter-spacing: 11px;
+    box-shadow: inset 0px 0px 0px 1px black; 
+    padding-left: 17px;
+
+    
+
+}
 ul{
     display: flex;
     flex-direction: row;
@@ -103,10 +111,11 @@ min-height: 5000px;
    
 }
 
-.f {
+footer{
     text-align: center;
-
 }
+
+
 /* .quran{
     
     
@@ -183,14 +192,7 @@ min-height: 5000px;
     padding-bottom: 7px;
 }
 
-li:hover{
-    letter-spacing: 11px;
-    box-shadow: inset 0px 0px 0px 1px black; 
-    padding-left: 17px;
 
-    
-
-}
 
 /*          
             NOTE             
