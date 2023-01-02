@@ -12,10 +12,9 @@ text-decoration: none;
 
 }
 nav{    
-    display: block;
     text-align: center;
     box-sizing: border-box;
-    width: 368px;
+    width: auto;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -42,7 +41,10 @@ li
     list-style: none;
     display: inline-block;
     flex-grow: 1;
-    
+    flex-wrap: nowrap;
+    width: max-content;
+
+
 
 
 }
@@ -50,13 +52,8 @@ ul{
     display: flex;
     flex-direction: row;
     text-align: center;
-    padding-left: 0;
-    padding :0;
-    margin-left: auto;
-    margin-right:auto;
+    padding: 0px;
     width: fill;
-    max-width: 368px;
-    
 }
 /* .ss{
     border-right: 1px solid #000205;
