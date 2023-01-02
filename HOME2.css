@@ -11,14 +11,14 @@ color: #000205;
 text-decoration: none;
 
 }
-nav{
-    background-color:white(6,57,112) ;
-    position: relative;
-    top : 0;
-    right: 25px;
-    display: inline;
+nav{    
+    display: block;
     text-align: center;
     box-sizing: border-box;
+    width: 375px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
 
 
 
@@ -40,12 +40,15 @@ li
     text-align: center;
     transition-duration: 0.4s;
     list-style: none;
-    display: inline-block;  
+    width : 300px
+
 }
 ul{
-    display: flexbox;
-    flex-direction: row;
+    display: flex;
     flex-grow: 1;
+    flex-direction: row;
+    text-align: center;
+    
 }
 /* .ss{
     border-right: 1px solid #000205;
@@ -112,11 +115,14 @@ min-height: 5000px;
     border-radius: 10px;
 } */
 .links{
-    display: flex-box;
+    display: flex;
     flex-direction: row;
     flex-grow: 1;
     text-align: center;
     box-sizing: border-box;
+    margin-right: auto;
+    
+    margin-left: auto;
 }
 .ContectsLinksW{
 
@@ -170,7 +176,7 @@ min-height: 5000px;
 }
 
 li:hover{
-    letter-spacing: 5px;
+    letter-spacing: 16px;
     box-shadow: inset 0px 0px 0px 1px black;    
     text-align: center;
     
