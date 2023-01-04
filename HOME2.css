@@ -190,6 +190,7 @@ footer{
     padding-right: 40px;
     padding-top: 7px;
     padding-bottom: 7px;
+    color: g;
 }
 
 
@@ -200,6 +201,8 @@ text decoration -> makes a line in the middle of the text or abbove  it or bello
 overline, linethrough
 
 box-sizing -> the defult is contint box , border-box recpects the element Horizently
+linear-gradient() => a color mixer, in the function ( to {diraction} , color 1, color 2, color n)
+
 
 
             

@@ -1,0 +1,65 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    display:flex;
+    justify-content: center ;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+body::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to left, rgb(255, 221, 28), rgba(255, 255, 255, 0.329) );
+    position: absolute; 
+    clip-path: circle(40% at right 70%);
+    
+}
+.con{
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.459), rgb(199, 199, 199) );
+    width: 80%;
+    height: 80%;
+    display: flex;
+
+    border-radius: 35px;
+    box-shadow:   0 0 12px 10px #aeaeae;
+    text-align: center;
+    margin: 0;
+    
+
+    
+
+    
+
+}
+h1{
+    color: black;
+    font-size:34px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    
+    
+
+
+
+
+}
+p{
+    color: black;
+    width: 40%;
+   
+    align-self: flex-end;
+    text-align: left;
+    
+
+
+}
+.la {
+align-self: flex-end;
+display: none;
+
+}
+
