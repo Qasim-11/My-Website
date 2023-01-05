@@ -246,7 +246,8 @@ transform : scale(1.3) rotate(7deg);
 - skew() rotates the element but diffrently, it makes it look like a Parallelogram 
 works exactly like scale()
 
--matrix
+-matrix compains all of the functions that are mentioned appove,
+syntax => scaleX() SkewY() SkewX() ScaleY() translateX() translateY()
 
 
 

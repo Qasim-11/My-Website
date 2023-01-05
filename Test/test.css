@@ -2,7 +2,7 @@
     width: 500px;
     height: 500px;
     background-color: rgba(160, 20, 202, 0.623);
-    transform: skewX(07deg);
+    transform: scaleX(1.2);
     transition: 3s;
 }
 
