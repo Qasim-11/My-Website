@@ -228,17 +228,26 @@ you can play with dimentions of the elements with it, like make the x larger or 
 differnce between transform and width and height is that the w and h deal with elements with resizing it,
 but the transform stretches it, expand it without resizing it,
 so if there is a div that has a text and you change the div with transform the text will look weired
-scale is the x , y changer , 
+
+-scale() is the x , y changer , 
 you can scale image horizentaly by using scaleX()
 Verticaly with scaleY() 
--scale() dose both and can take 2 values
+scale() dose both and can take 2 values
 scale(1.2) or scale(0.8) these types of scales zoom in and zoom out (usualy used in images) 
--you can use [rotate] with 
+
+- rotate() you can use rotate() with 
 {deg => degree} or {rad => radiand} {grad => gradiand} or {turn => 90 degree , 1 turn , 2 turn etc}
 if you want to use scale and rotate at the same time you should put them in the same line and don't repeat transform.
 example :
 transform : scale(1.3) rotate(7deg);
--translate is the mover , and it moves like game dev.
+
+- translate is the mover , and it moves like game dev, It's used in animations
+
+- skew() rotates the element but diffrently, it makes it look like a Parallelogram 
+works exactly like scale()
+
+-matrix
+
 
 
             

@@ -1,0 +1,8 @@
+.test{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(160, 20, 202, 0.623);
+    transform: skewX(07deg);
+    transition: 3s;
+}
+
