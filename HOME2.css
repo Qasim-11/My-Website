@@ -94,7 +94,7 @@ p{
 
 .main
 {
-background-color: FAFCFF ;
+background-color: #FAFCFF ;
 color: #000205;
 min-height: 5000px;
 }
@@ -167,7 +167,7 @@ footer{
     display: inline-block;
     text-align: center;
     margin-right: 40px;
-     flex-direction: row;
+    flex-direction: row;
     flex-grow: 1;
     text-align: center;
     max-width: 375px;
@@ -190,20 +190,54 @@ footer{
     padding-right: 40px;
     padding-top: 7px;
     padding-bottom: 7px;
-    color: g;
 }
 
 
 
 /*          
             NOTE             
-text decoration -> makes a line in the middle of the text or abbove  it or bellow it 
-overline, linethrough
 
+
+        --- text decoration ---
+text decoration -> makes a line in the middle of the text or abbove  it or bellow it overline, linethrough
+        
+        --- box sizing ---
 box-sizing -> the defult is contint box , border-box recpects the element Horizently
-linear-gradient() => a color mixer, in the function ( to {diraction} , color 1, color 2, color n)
 
+        --- linear-gradient ---  
+linear-gradient() => a color mixer, in the function ( to {diraction} or a degree represented by deg and a number, color 1, color 2, color n), you can set the amount of color you want by using % and a number just behind the color
 
+        --- grids ---
+grids are used for complex big lists, They are Horizental and Vertical pillars, You can build a Youtube H and V video cases . 
+
+        --- filters ---
+filters are used for hover stuff , some filters make black and white filters , some blur the image, and so on, you can google the filters and see the features.
+
+        --- * ---
+when you name a class like this :
+*{}
+every thing you add in this section will be added to all the elements in the page
+
+        --- Transition ---
+transition is the animationer,{transition : {durantion}}
+you should add it with * if you want the same transform dauration with all the elements
+
+        --- Transform ---
+transform => the 2D and 3D player,
+you can play with dimentions of the elements with it, like make the x larger or the y smaller,
+differnce between transform and width and height is that the w and h deal with elements with resizing it,
+but the transform stretches it, expand it without resizing it,
+so if there is a div that has a text and you change the div with transform the text will look weired
+scale is the x , y changer , 
+you can scale image horizentaly by using scaleX()
+Verticaly with scaleY() 
+scale() dose both and can take 2 values
+scale(1.2) or scale(0.8) these types of scales zoom in and zoom out (usualy used in images) 
+you can use [rotate] with 
+{deg => degree} or {rad => radiand} {grad => gradiand} or {turn => 90 degree , 1 turn , 2 turn etc}
+if you want to use scale and rotate at the same time you should put them in the same line and don't repeat transform.
+example :
+transform : scale(1.3) rotate(7deg);
 
             
             
