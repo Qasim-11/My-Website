@@ -191,3 +191,13 @@ works exactly like scale()
 syntax => scaleX() SkewY() SkewX() ScaleY() translateX() translateY()
 
 - origin
+
+- 3d transform => (X,Y,Z) can't do z alone like rotatez(45deg) <= WRONG , Instead you type this : rotate( 0 , 0 , 1 , deg45)  
+ the 0s and 1s are sorted by x , y , z and they do not represent the degrees,
+ They just work like the binery , 
+ if the number is 0 then it won't consider 45deg to it and it won't effect it,
+ and if the number is 1 it will consider changing it and it will change it's value to 45deg.
+ 
+ -translate3d(x,y,z) explained, the z is good to be used in zooming and making an element bigger. 
+ -prespactive is like the point disapperince of the element when you give it a translate3d(), example: if the presactive = presactive : 300px , and the translate3d(0,0,350px) it will not be appered , if it was less than 300px it will , if it was equal to 300px it will not apper , 
+ -prespactive orgin is used with translate3d(), it is works exactly like trnasform origin, it is gaven to the parent
